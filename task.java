@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
 
-class task {
+class Task {
 	private String title;
 	private Calendar start_time=Calendar.getInstance();
 	private Calendar end_time=Calendar.getInstance();
@@ -21,17 +21,26 @@ class task {
 	public Calendar getStart() {
 		return this.start_time;
 	}
-	public Integer getDate() {
+	public Integer getStartDate() {
 		return this.getStart().get(Calendar.DAY_OF_MONTH);
 	}
-	public int getDay() {
+	public int getStartDay() {
 		return this.getStart().get(Calendar.DAY_OF_WEEK);
 	}
-	public int getHours() {
+	public int getStartHours() {
 		return this.getStart().get(Calendar.HOUR_OF_DAY);
 	}
 	public Calendar getEnd() {
 		return this.end_time;
+	}
+	public Integer getEndDate() {
+		return this.getEnd().get(Calendar.DAY_OF_MONTH);
+	}
+	public int getEndDay() {
+		return this.getEnd().get(Calendar.DAY_OF_WEEK);
+	}
+	public int getEndHours() {
+		return this.getEnd().get(Calendar.HOUR_OF_DAY);
 	}
 	public String getDescription() {
 		return this.description;
