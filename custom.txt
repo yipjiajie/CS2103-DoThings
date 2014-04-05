@@ -1,0 +1,4 @@
+[ADD] new insert 
+[LIST] display 
+[DELETE] drop 
+[EXIT] q 
