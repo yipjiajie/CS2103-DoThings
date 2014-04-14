@@ -1,4 +1,4 @@
-//@author A0099727J
+
 package dothings.logic;
 
 import java.util.ArrayList;
@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 import dothings.storage.FileManager;
 
-
+//@author A0099727J
 public class CustomCommandHandler {
 	private static final String LOG_DELETED_CUSTOM_COMMAND = "Deleted %s custom command from %s";
 	private static final String LOG_ADDED_COMMAND = "Added %s custom command to %s";
@@ -31,8 +31,8 @@ public class CustomCommandHandler {
 
 	public static final String MESSAGE_CUSTOM_DUPLICATE = "Sorry, but this word is already in use.";
 	public static final String MESSAGE_CUSTOM_SUCCESS = "\"%s\" has been added to the command list.";
-	public static final String MESSAGE_CUSTOM_NONEXISTANT = "Error deleting. No such word in command list.";
 	public static final String MESSAGE_CUSTOM_DELETED = "\"%s\" has been deleted from the command list.";
+	public static final String MESSAGE_CUSTOM_NONEXISTANT = "Error deleting. No such word in command list.";
 	
 	protected static ArrayList<ArrayList<String>> customCommandList = loadCustomCommands();
 	
