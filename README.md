@@ -1,4 +1,6 @@
-# CS2103-DoThings
+# CS2103 - DoThings
 NUS AY2013/2014 Sem 2
+CS2103T To-do task manager project
 
-https://docs.google.com/viewer?url=https://drive.google.com/open?id=0B9rKZNwwEmYJTW9kcThhaHhiR0E
+View project report (User and developer guide):
+https://drive.google.com/file/d/0B9rKZNwwEmYJTW9kcThhaHhiR0E/view?usp=sharing
